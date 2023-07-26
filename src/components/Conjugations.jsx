@@ -1,8 +1,8 @@
 const Conjugations = ({ conjugations }) => {
   return (
-    <div className="mt-4">
+    <div className="grid grid-cols-2 md:grid-cols-3 md:mt-4 gap-x-8 gap-y-4">
       {conjugations?.map((infinitive, index) => (
-        <div className="mb-4" key={index}>
+        <div className="mb-4 mr-2" key={index}>
           <h2 className="text-lg font-bold">{infinitive.tense}</h2>
           <p>Yo: {infinitive.yo}</p>
           <p>Tú: {infinitive.tú}</p>
