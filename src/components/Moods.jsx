@@ -9,12 +9,15 @@ const Moods = ({ selectedMood, handleMoodChange }) => {
   return (
     <>
       <select
-        className="w-full h-10 mt-4 md:w-80 md:mt-0 border-2 border-black focus:outline-none rounded pl-2 tracking-wider"
+        className="w-full md:w-72 md:mr-2 h-10 mb-2 border-2 border-black focus:outline-none rounded pl-2 tracking-wide"
         id="mood"
         name="mood"
         value={selectedMood}
         onChange={handleMoodChange}
       >
+        <option disabled hidden>
+          Choose a mood
+        </option>
         {moods.map((mood, index) => (
           <option key={index}>{mood}</option>
         ))}
