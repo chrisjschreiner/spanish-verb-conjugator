@@ -35,7 +35,7 @@ const VerbApp = () => {
         verb.mood === selectedMood
     );
     if (searchVerb.trim().length !== 0) setConjugations(filteredVerbs);
-    setDefinition(getDefinition());
+    if (selectedMood !== "Choose a mood") setDefinition(getDefinition());
   };
 
   const findInVerbs = (key) => {
@@ -47,7 +47,9 @@ const VerbApp = () => {
   };
 
   const getDefinition = () => {
-    return findInVerbs("definition");
+    if (selectedMood) {
+      return findInVerbs("definition");
+    }
   };
 
   const handleMoodChange = (e) => {
