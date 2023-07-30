@@ -75,7 +75,6 @@ const VerbApp = () => {
           />
           <button
             className="w-full md:w-28 h-10 bg-black text-white rounded tracking-wider"
-            placeholder="Enter a mood"
             onClick={handleSearch}
           >
             Search
