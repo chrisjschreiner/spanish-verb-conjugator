@@ -47,9 +47,7 @@ const VerbApp = () => {
   };
 
   const getDefinition = () => {
-    if (selectedMood) {
-      return findInVerbs("definition");
-    }
+    return findInVerbs("definition");
   };
 
   const handleMoodChange = (e) => {
