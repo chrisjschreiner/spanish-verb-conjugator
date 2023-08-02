@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Moods from "./components/Moods";
-import Conjugations from "./components/Conjugations";
+import Input from "./components/Input";
+import Select from "./components/Select";
+import Button from "./components/Button";
 import Definition from "./components/Definition";
+import Conjugations from "./components/Conjugations";
 
 const VerbApp = () => {
   const [verbsData, setVerbsData] = useState([]);
@@ -28,7 +30,7 @@ const VerbApp = () => {
     setSearchVerb(e.target.value);
   };
 
-  const handleSearch = () => {
+  const handleClick = () => {
     const filteredVerbs = verbsData.filter(
       (verb) =>
         verb.infinitive.startsWith(searchVerb.toLowerCase()) &&
@@ -61,24 +63,15 @@ const VerbApp = () => {
       </h1>
       <form onSubmit={handleSubmit}>
         <div className="flex flex-wrap">
-          <input
-            type="text"
-            placeholder="Enter a verb"
-            name="verb"
-            value={searchVerb}
-            onChange={handleSearchChange}
-            className="w-full md:w-72 h-10 pl-3 mb-2 md:mr-2 rounded border-2 border-black focus:outline-none tracking-wider"
+          <Input
+            searchVerb={searchVerb}
+            handleSearchChange={handleSearchChange}
           />
-          <Moods
+          <Select
             selectedMood={selectedMood}
             handleMoodChange={handleMoodChange}
           />
-          <button
-            className="w-full md:w-28 h-10 bg-black text-white rounded tracking-wider"
-            onClick={handleSearch}
-          >
-            Search
-          </button>
+          <Button handleClick={handleClick} />
         </div>
       </form>
       <div className="">

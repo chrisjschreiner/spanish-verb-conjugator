@@ -1,4 +1,4 @@
-const Moods = ({ selectedMood, handleMoodChange }) => {
+const Select = ({ selectedMood, handleMoodChange }) => {
   const moods = [
     "Indicativo",
     "Subjuntivo",
@@ -26,4 +26,4 @@ const Moods = ({ selectedMood, handleMoodChange }) => {
   );
 };
 
-export default Moods;
+export default Select;
