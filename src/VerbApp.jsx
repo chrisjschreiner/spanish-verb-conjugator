@@ -33,7 +33,7 @@ const VerbApp = () => {
   const handleClick = () => {
     const filteredVerbs = verbsData.filter(
       (verb) =>
-        verb.infinitive.startsWith(searchVerb.toLowerCase()) &&
+        verb.infinitive === searchVerb.toLowerCase() &&
         verb.mood === selectedMood
     );
     if (searchVerb.trim().length !== 0) setConjugations(filteredVerbs);
@@ -57,12 +57,12 @@ const VerbApp = () => {
   };
 
   return (
-    <div className="container mx-auto max-w-screen-md px-8 pt-16">
-      <h1 className="text-center text-4xl md:text-5xl font-semibold pb-14">
+    <main className="container mx-auto max-w-screen-md px-8 pt-16">
+      <h1 className="text-center text-4xl md:text-5xl font-semibold pb-14 text-cyan-950">
         Spanish Verb Conjugator
       </h1>
       <form onSubmit={handleSubmit}>
-        <div className="flex flex-wrap">
+        <fieldset className="flex flex-wrap">
           <Input
             searchVerb={searchVerb}
             handleSearchChange={handleSearchChange}
@@ -72,13 +72,11 @@ const VerbApp = () => {
             handleMoodChange={handleMoodChange}
           />
           <Button handleClick={handleClick} />
-        </div>
+        </fieldset>
       </form>
-      <div className="">
-        <Definition definition={definition} />
-        <Conjugations conjugations={conjugations} />
-      </div>
-    </div>
+      <Definition definition={definition} />
+      <Conjugations conjugations={conjugations} />
+    </main>
   );
 };
 
