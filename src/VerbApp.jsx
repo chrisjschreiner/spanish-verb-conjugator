@@ -58,7 +58,7 @@ const VerbApp = () => {
 
   return (
     <main className="container mx-auto max-w-screen-md px-8 pt-16">
-      <h1 className="text-center text-4xl md:text-5xl font-semibold pb-14 text-cyan-950">
+      <h1 className="text-center text-4xl md:text-5xl font-medium pb-14 text-slate-100">
         Spanish Verb Conjugator
       </h1>
       <form onSubmit={handleSubmit}>

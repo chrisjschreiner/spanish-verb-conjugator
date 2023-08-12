@@ -1,24 +1,26 @@
 const Conjugations = ({ conjugations }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 mt-4 gap-x-8 gap-y-4">
+    <section className="grid grid-cols-1 md:grid-cols-2 mt-4 gap-x-8 gap-y-4">
       {conjugations?.map((infinitive, index) => (
         <div className="mb-4" key={index}>
-          <h2 className="text-lg font-bold mb-2">{infinitive.tense}</h2>
+          <h2 className="text-lg font-medium mb-2 text-slate-100">
+            {infinitive.tense}
+          </h2>
           <table
             key={index}
-            className="w-full rounded shadow-lg bg-white table-auto"
+            className="w-full rounded shadow-lg bg-slate-100 table-auto"
           >
             <thead className="text-left">
               <tr>
-                <th className="text-gray-700 font-medium rounded-l bg-blue-100 text-left px-6 py-2">
+                <th className="text-fuchsia-950 font-medium rounded-l bg-slate-400/50 text-left px-6 py-2">
                   Pronoun
                 </th>
-                <th className="text-gray-700 font-medium rounded-r bg-blue-100 text-left px-6 py-2">
+                <th className="text-fuchsia-950 font-medium rounded-r bg-slate-400/50 text-left px-6 py-2">
                   Conjugation
                 </th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="text-fuchsia-800">
               <tr>
                 <td className="px-6 py-2">Yo</td>
                 <td className="px-6 py-2">{infinitive.yo}</td>
@@ -49,7 +51,7 @@ const Conjugations = ({ conjugations }) => {
           </table>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

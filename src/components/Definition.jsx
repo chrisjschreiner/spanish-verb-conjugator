@@ -1,8 +1,6 @@
 const Definition = ({ definition }) => {
   return (
-    <h3 className="mt-4 mb-6 text-lg text-blue-400 font-medium">
-      {definition}
-    </h3>
+    <p className="mt-4 mb-6 text-lg text-slate-100 font-medium">{definition}</p>
   );
 };
 
