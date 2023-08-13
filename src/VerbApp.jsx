@@ -15,7 +15,7 @@ const VerbApp = () => {
 
   useEffect(() => {
     axios
-      .get("src/data/verbsData.json")
+      .get("verbsData.json")
       .then((res) => {
         setVerbsData(res.data);
       })
