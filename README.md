@@ -1,16 +1,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/chrisjschreiner/Portfolio">
-    <img src="src/assets/logo_black.png" alt="Logo" width="80" height="90">
-  </a>
+<img src="src/assets/logo_black.png" alt="Logo" width="80" height="90">
 
-<h3 align="center">Portfolio</h3>
+<h3 align="center">Spanish Verb Conjugator</h3>
 
   <p align="center">
     Conjugate 600+ Spanish verbs into all moods and tenses with this app inspired by my love for languages.
     <br />
-    <a href=["https://portfolio-lfqq.onrender.com"](https://spanish-verb-conjugator.onrender.com/)><Strong>View Site »</Strong></a>
+    <a href="https://spanish-verb-conjugator.onrender.com"><Strong>View Site »</Strong></a>
   </p>
 </div>
 
