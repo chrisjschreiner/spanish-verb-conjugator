@@ -26,6 +26,7 @@ const Dropdown = ({ verbsData, searchVerb, setSearchVerb, open, setOpen }) => {
     // Removing below doesn't seem to affect functionality
     setFilteredResults([]);
   };
+
   return (
     <>
       {open ? (
