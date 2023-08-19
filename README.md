@@ -18,7 +18,6 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#built-with">Acknowledgement</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -31,7 +30,7 @@
 
 ## Built With
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass,vscode&perline=18)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,js,react,vite,tailwind,vscode&perline=18)](https://skillicons.dev)
 
 <!-- LICENSE -->
 ## License
@@ -39,9 +38,6 @@
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- ACKNOWLEDGMENT -->
-## Acknowledgment
-
-Site design inpired by Brittany Chiang, but created with my own code.
 
 <!-- CONTACT -->
 ## Contact
@@ -62,7 +58,7 @@ Chris Schreiner - chrisjschreiner@gmail.com
 [license-url]: https://github.com/chrisjschreiner/Portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: src/assets/portfolio_screenshot_mobile.png
+[product-screenshot]: src/assets/screenshot_readme.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
