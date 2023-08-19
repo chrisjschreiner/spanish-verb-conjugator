@@ -12,6 +12,7 @@ const VerbApp = () => {
   const [selectedMood, setSelectedMood] = useState("Choose a mood");
   const [definition, setDefinition] = useState("");
   const [conjugations, setConjugations] = useState([]);
+  const [open, setOpen] = useState("true");
 
   useEffect(() => {
     axios
@@ -28,6 +29,7 @@ const VerbApp = () => {
 
   const handleSearchChange = (e) => {
     setSearchVerb(e.target.value);
+    setOpen("true");
   };
 
   const handleClick = () => {
@@ -65,7 +67,11 @@ const VerbApp = () => {
         <fieldset className="flex flex-wrap">
           <Input
             searchVerb={searchVerb}
+            setSearchVerb={setSearchVerb}
+            verbsData={verbsData}
             handleSearchChange={handleSearchChange}
+            open={open}
+            setOpen={setOpen}
           />
           <Select
             selectedMood={selectedMood}
