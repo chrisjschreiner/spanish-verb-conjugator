@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 const Dropdown = ({ searchVerb, setSearchVerb, verbsData, open, setOpen }) => {
   const [filteredResults, setFilteredResults] = useState([]);
+
   useEffect(() => {
     const uniqueResults = new Set();
 
@@ -13,7 +14,6 @@ const Dropdown = ({ searchVerb, setSearchVerb, verbsData, open, setOpen }) => {
           uniqueResults.add(item.infinitive);
         }
       });
-
       setFilteredResults(Array.from(uniqueResults).slice(0, 5));
     } else {
       setFilteredResults([]);
