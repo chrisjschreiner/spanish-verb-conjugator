@@ -7,7 +7,7 @@ const Dropdown = ({ verbsData, searchVerb, setSearchVerb, open, setOpen }) => {
     const uniqueResults = new Set();
 
     if (searchVerb) {
-      verbsData?.forEach((item) => {
+      verbsData.forEach((item) => {
         if (
           item.infinitive.toLowerCase().startsWith(searchVerb.toLowerCase())
         ) {
