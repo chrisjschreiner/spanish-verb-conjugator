@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const Dropdown = ({ searchVerb, setSearchVerb, verbsData, open, setOpen }) => {
+const Dropdown = ({ verbsData, searchVerb, setSearchVerb, open, setOpen }) => {
   const [filteredResults, setFilteredResults] = useState([]);
 
   useEffect(() => {
