@@ -30,7 +30,7 @@ const Dropdown = ({ verbsData, searchVerb, setSearchVerb, open, setOpen }) => {
   return (
     <>
       {open ? (
-        <ul className="absolute">
+        <ul className="absolute top-12 left-13">
           {filteredResults.map((result, index) => (
             <li
               className="bg-slate-100 text-fuchsia-800 hover:bg-slate-300 w-full md:w-72 pl-3"
