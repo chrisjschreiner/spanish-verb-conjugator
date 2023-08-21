@@ -9,7 +9,7 @@ const Input = ({
   setOpen,
 }) => {
   return (
-    <div className="relative">
+    <>
       <input
         type="text"
         placeholder="Enter a verb"
@@ -24,7 +24,7 @@ const Input = ({
         open={open}
         setOpen={setOpen}
       />
-    </div>
+    </>
   );
 };
 
