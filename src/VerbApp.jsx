@@ -64,7 +64,7 @@ const VerbApp = () => {
         Spanish Verb Conjugator
       </h1>
       <form onSubmit={handleSubmit}>
-        <fieldset className="flex flex-wrap">
+        <fieldset className="flex flex-wrap relative">
           <Input
             searchVerb={searchVerb}
             setSearchVerb={setSearchVerb}
