@@ -33,7 +33,7 @@ const Dropdown = ({ verbsData, searchVerb, setSearchVerb, open, setOpen }) => {
         <ul className="absolute w-full top-11 left-13">
           {filteredResults.map((result, index) => (
             <li
-              className="first:rounded-t-lg last:rounded-b-lg bg-slate-100 text-fuchsia-800 hover:bg-slate-300 md:w-72 pl-3"
+              className="first:rounded-t-lg last:rounded-b-lg bg-slate-100 text-fuchsia-800 hover:bg-slate-300 md:w-72 pl-3 py-1"
               onClick={() => handleResultClick(result)}
               key={index}
             >
