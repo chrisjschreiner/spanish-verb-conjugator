@@ -12,10 +12,10 @@ const Conjugations = ({ conjugations }) => {
           >
             <thead className="text-left">
               <tr>
-                <th className="text-fuchsia-900 font-medium rounded-l bg-slate-400/50 text-left px-6 py-2">
+                <th className="text-fuchsia-900 font-medium rounded-l bg-slate-400/50 text-left px-5 py-2">
                   Pronoun
                 </th>
-                <th className="text-fuchsia-900 font-medium rounded-r bg-slate-400/50 text-left px-6 py-2">
+                <th className="text-fuchsia-900 font-medium rounded-r bg-slate-400/50 text-left px-5 py-2">
                   Conjugation
                 </th>
               </tr>
