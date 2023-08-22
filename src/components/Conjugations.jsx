@@ -12,38 +12,38 @@ const Conjugations = ({ conjugations }) => {
           >
             <thead className="text-left">
               <tr>
-                <th className="text-fuchsia-900 font-medium rounded-l bg-slate-400/50 text-left px-5 py-2">
+                <th className="text-fuchsia-900 font-medium rounded-l bg-slate-400/50 text-left pl-6 py-2">
                   Pronoun
                 </th>
-                <th className="text-fuchsia-900 font-medium rounded-r bg-slate-400/50 text-left px-5 py-2">
+                <th className="text-fuchsia-900 font-medium rounded-r bg-slate-400/50 text-left md:pl-6 py-2">
                   Conjugation
                 </th>
               </tr>
             </thead>
             <tbody className="text-fuchsia-700">
               <tr>
-                <td className="px-6 py-2">Yo</td>
-                <td className="px-6 py-2">{infinitive.yo}</td>
+                <td className="pl-6 py-2">Yo</td>
+                <td className="md:pl-6 py-2">{infinitive.yo}</td>
               </tr>
               <tr>
-                <td className="px-6 py-2">Tú</td>
-                <td className="px-6 py-2">{infinitive.tú}</td>
+                <td className="pl-6 py-2">Tú</td>
+                <td className="md:pl-6 py-2">{infinitive.tú}</td>
               </tr>
               <tr>
-                <td className="px-6 py-2">Él/Ella/Ud.</td>
-                <td className="px-6 py-2">{infinitive["él/ella/usted"]}</td>
+                <td className="pl-6 py-2">Él/Ella/Ud.</td>
+                <td className="md:pl-6 py-2">{infinitive["él/ella/usted"]}</td>
               </tr>
               <tr>
-                <td className="px-6 py-2">Nostros/as</td>
-                <td className="px-6 py-2">{infinitive["nosotros/as"]}</td>
+                <td className="pl-6 py-2">Nostros/as</td>
+                <td className="md:pl-6 py-2">{infinitive["nosotros/as"]}</td>
               </tr>
               <tr>
-                <td className="px-6 py-2">Vosotros/as</td>
-                <td className="px-6 py-2">{infinitive["vosotros/as"]}</td>
+                <td className="pl-6 py-2">Vosotros/as</td>
+                <td className="md:pl-6 py-2">{infinitive["vosotros/as"]}</td>
               </tr>
               <tr>
-                <td className="px-6 pt-2 pb-4">Ellos/Ellas/Uds.</td>
-                <td className="px-6 pt-2 pb-4">
+                <td className="pl-6 pt-2 pb-4">Ellos/Ellas/Uds.</td>
+                <td className="md:pl-6 pt-2 pb-4">
                   {infinitive["ellos/ellas/ustedes"]}
                 </td>
               </tr>
