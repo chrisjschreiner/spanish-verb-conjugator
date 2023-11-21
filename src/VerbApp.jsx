@@ -23,8 +23,8 @@ const VerbApp = () => {
       .catch((err) => console.log(err));
   }, []);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
   };
 
   const handleSearchChange = (e) => {
@@ -40,6 +40,7 @@ const VerbApp = () => {
     );
     if (searchVerb.trim().length !== 0) setConjugations(filteredVerbs);
     if (selectedMood !== "Choose a mood") setDefinition(getDefinition());
+    console.log(filteredVerbs)
   };
 
   const findInVerbs = (key) => {
