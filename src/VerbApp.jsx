@@ -29,7 +29,7 @@ const VerbApp = () => {
 
   const handleSearchChange = (e) => {
     setSearchVerb(e.target.value);
-    setOpen("true");
+    // setOpen("true");
   };
 
   const handleClick = () => {
@@ -40,7 +40,7 @@ const VerbApp = () => {
     );
     if (searchVerb.trim().length !== 0) setConjugations(filteredVerbs);
     if (selectedMood !== "Choose a mood") setDefinition(getDefinition());
-    console.log(filteredVerbs)
+    console.log(filteredVerbs);
   };
 
   const findInVerbs = (key) => {
@@ -62,7 +62,7 @@ const VerbApp = () => {
   return (
     <main className="container mx-auto max-w-screen-md px-8 pt-16">
       <h1 className="text-center text-4xl md:text-5xl font-medium pb-14 text-slate-100">
-        Spanish Verb Conjugator
+        Verbzy
       </h1>
       <form onSubmit={handleSubmit}>
         <fieldset className="flex flex-wrap relative">
