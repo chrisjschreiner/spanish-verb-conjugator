@@ -26,6 +26,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+As a Spanish teacher, I wanted my students to be able to improve their verb conjugation skills. All the websites I could find were bloated with annoying ads and were confusing to navigate. So I built "Verbzy" - an app where you simply enter a verb, and see all the various verb tenses on one screen. Built for various screen sizes, they love being able to use their laptops or their phones.
+
 ![Portfolio Screen Shot][product-screenshot]
 
 ## Built With
