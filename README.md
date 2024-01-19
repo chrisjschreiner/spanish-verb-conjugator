@@ -3,11 +3,12 @@
 <div align="center">
 <img src="src/assets/logo_black.png" alt="Logo" width="80" height="90">
 
-<h3 align="center">Spanish Verb Conjugator</h3>
+<h3 align="center">Verbzy</h3>
 
   <p align="center">
     Conjugate 600+ Spanish verbs into all moods and tenses with this app inspired by my love for languages.
     <br />
+    As a Spanish teacher, I wanted my students to be able to improve their verb conjugation skills. All the websites I could find were bloated with annoying ads and were confusing to navigate. So I built "Verbzy" - an app where you simply enter a verb, and see all the various verb tenses on one screen. Built for various screen sizes, they love being able to use their laptops or their phones.
     <a href="https://spanish-verb-conjugator.onrender.com"><Strong>View Site »</Strong></a>
   </p>
 </div>
