@@ -6,7 +6,7 @@
 <h3 align="center">Verbzy</h3>
 
   <p align="center">
-    Conjugate 600+ Spanish verbs into all moods and tenses with this app inspired by my love for languages.
+    Conjugate 600+ Spanish verbs into all moods and tenses.
     <br />
     <a href="https://spanish-verb-conjugator.onrender.com"><Strong>View Site »</Strong></a>
   </p>
