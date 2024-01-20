@@ -12,6 +12,7 @@ const Input = ({
     <>
       <input
         type="text"
+        autoFocus
         placeholder="Enter a verb"
         value={searchVerb}
         onChange={handleSearchChange}
