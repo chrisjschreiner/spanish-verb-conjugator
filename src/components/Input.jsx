@@ -20,6 +20,7 @@ const Input = ({
       <input
         type="text"
         autoFocus
+        // name="verb"
         placeholder="Enter a verb"
         value={searchVerb}
         onChange={handleSearchChange}

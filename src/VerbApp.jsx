@@ -29,7 +29,6 @@ const VerbApp = () => {
 
   const handleSearchChange = (e) => {
     setSearchVerb(e.target.value);
-    // setOpen("true");
   };
 
   const handleClick = () => {
@@ -40,7 +39,6 @@ const VerbApp = () => {
     );
     if (searchVerb.trim().length !== 0) setConjugations(filteredVerbs);
     if (selectedMood !== "Choose a mood") setDefinition(getDefinition());
-    console.log(filteredVerbs);
   };
 
   const findInVerbs = (key) => {
